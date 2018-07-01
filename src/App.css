@@ -1,0 +1,137 @@
+/*lANDING PAGE CSS*/
+.header-color {
+  background: #F0F2F0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #000C40, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #000C40, #F0F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+}
+.landing-grid {
+  background: #F0F2F0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #000C40, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #000C40, #F0F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+text-align: center;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+}
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  margin: auto;
+  width: 75%;
+  border-radius: 10px;
+}
+.banner-text h1 {
+  font-size: 50px;
+  font-weight: bold;;
+  color: white;
+}
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+
+}
+.banner-text p{
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.social-links i {
+color: white;
+padding: 8px;
+font-size: 5em;
+}
+/*lANDING PAGE CSS ENDS*/
+
+
+/*PROJECT PAGE CSS START*/
+/* .project-grid{
+  display: flex;
+} */
+/*PROJECT PAGE CSS ENDS*/
+
+
+/*CONTACT PAGE CSS STARTS*/
+.contact-body{
+    margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+.contact-grid{
+  background: #F0F2F0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #000C40, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #000C40, #F0F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width: 80%;
+height: 550px;
+text-align: center;
+justify-content: center;
+margin-bottom: 20px;
+}
+.contact-grid h2{
+  font-family: 'Anton', sans-serif;
+}
+.contact-grid p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+.contact-list i{
+  padding-right: 5rem;
+  font-size: 66px;
+}
+/*CONTACT PAGE CSS ENDS*/
+
+/*RESUME PAGE CSS START*/
+.resume-right-col{
+background:#27221F;
+color: white;
+padding: 2em;
+}
+
+/*RESUME PAGE CSS ENDS*/
+
+/*Aboutme page START*/
+.side-img{
+  border-image-source: url("https://cdn0.iconfinder.com/data/icons/user-pictures/100/female-512.png");
+      border-image-outset: 10px;
+}
+.likes{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.likes i {
+  color: black;
+  padding: 8px;
+  font-size: 5em;
+}
+
+
+/*Aboutme page ENDS*/
